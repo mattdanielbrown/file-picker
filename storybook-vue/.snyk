@@ -1,0 +1,60 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@storybook/addon-knobs > lodash':
+        patched: '2020-12-05T02:10:13.340Z'
+    - storybook-readme > lodash:
+        patched: '2020-12-05T02:10:13.340Z'
+    - '@storybook/addon-knobs > @storybook/client-api > lodash':
+        patched: '2020-12-05T02:10:13.340Z'
+    - '@storybook/addon-knobs > react-color > lodash':
+        patched: '2020-12-05T02:10:13.340Z'
+    - '@storybook/vue > @storybook/core > @storybook/ui > lodash':
+        patched: '2020-12-05T02:10:13.340Z'
+    - '@storybook/addon-knobs > react-color > reactcss > lodash':
+        patched: '2020-12-05T02:10:13.340Z'
+    - '@storybook/vue > @storybook/core > html-webpack-plugin > lodash':
+        patched: '2020-12-05T02:10:13.340Z'
+    - '@storybook/vue > @storybook/core > inquirer > lodash':
+        patched: '2020-12-05T02:10:13.340Z'
+    - '@storybook/vue > @storybook/core > @storybook/ui > @storybook/api > lodash':
+        patched: '2020-12-05T02:10:13.340Z'
+    - '@storybook/vue > @storybook/core > @storybook/ui > react-resize-detector > lodash':
+        patched: '2020-12-05T02:10:13.340Z'
+    - '@storybook/vue > @storybook/core > react-dev-utils > inquirer > lodash':
+        patched: '2020-12-05T02:10:13.340Z'
+    - '@storybook/vue > @storybook/core > @storybook/ui > @storybook/addons > @storybook/api > lodash':
+        patched: '2020-12-05T02:10:13.340Z'
+    - '@storybook/vue > @storybook/core > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-12-05T02:10:13.340Z'
+    - '@storybook/vue > @storybook/core > @babel/preset-env > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/traverse > lodash':
+        patched: '2020-12-05T02:10:13.340Z'
+    - '@storybook/addon-knobs > @storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-12-05T02:10:13.340Z'
+    - '@storybook/addon-knobs > react-select > emotion > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-12-05T02:10:13.340Z'
+    - '@storybook/vue > @storybook/core > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > lodash':
+        patched: '2020-12-05T02:10:13.340Z'
+    - '@storybook/vue > @storybook/core > @storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-12-05T02:10:13.340Z'
+    - storybook-readme > @storybook/components > @storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2020-12-05T02:10:13.340Z'
+    - '@storybook/vue > @storybook/core > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash':
+        patched: '2020-12-05T02:10:13.340Z'
+    - '@storybook/vue > @storybook/core > @storybook/ui > @storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-12-05T02:10:13.340Z'
+    - storybook-readme > @storybook/components > @storybook/theming > @emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2020-12-05T02:10:13.340Z'
+    - '@storybook/vue > @storybook/core > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2020-12-05T02:10:13.340Z'
+    - '@storybook/vue > @storybook/core > @storybook/ui > @storybook/components > @storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-12-05T02:10:13.340Z'
+    - '@storybook/vue > @storybook/core > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2020-12-05T02:10:13.340Z'
+    - '@storybook/vue > @storybook/core > @storybook/ui > @storybook/addons > @storybook/api > @storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-12-05T02:10:13.340Z'
+    - '@storybook/vue > @storybook/core > @storybook/ui > @storybook/addons > @storybook/api > @storybook/theming > @emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-12-05T02:10:13.340Z'

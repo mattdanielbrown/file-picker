@@ -9,21 +9,27 @@
     "@babel/core": "7.4.0",
     "@babel/preset-env": "7.4.1",
     "@storybook/addon-actions": "5.1.9",
-    "@storybook/addon-knobs": "5.1.9",
+    "@storybook/addon-knobs": "6.1.0",
     "@storybook/addon-links": "5.1.9",
     "@storybook/addons": "5.1.9",
-    "@storybook/vue": "5.1.9",
+    "@storybook/vue": "6.1.0",
     "babel-loader": "8.0.5",
     "babel-plugin-stylus-compiler": "1.4.0",
     "babel-preset-vue": "2.0.2",
     "core-js": "3.1.4",
-    "storybook-readme": "5.0.2",
+    "storybook-readme": "5.0.8",
     "vue": "2.6.10",
     "vue-loader": "15.7.0",
     "vue-template-compiler": "2.6.10"
   },
   "scripts": {
     "storybook": "start-storybook -p 9001",
-    "build": "build-storybook -c .storybook -o ../.demo/vue"
+    "build": "build-storybook -c .storybook -o ../.demo/vue",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true,
+  "dependencies": {
+    "snyk": "^1.434.2"
   }
 }

@@ -1,0 +1,82 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - cldr-data-downloader > request > extend:
+        patched: '2020-12-05T02:12:36.730Z'
+    - stylelint > postcss-markdown > remark > unified > extend:
+        patched: '2020-12-05T02:12:36.730Z'
+  SNYK-JS-LODASH-567746:
+    - '@babel/core > lodash':
+        patched: '2020-12-05T02:12:36.730Z'
+    - babel-plugin-transform-define > lodash:
+        patched: '2020-12-05T02:12:36.730Z'
+    - eslint > lodash:
+        patched: '2020-12-05T02:12:36.730Z'
+    - eslint-plugin-import > lodash:
+        patched: '2020-12-05T02:12:36.730Z'
+    - webpack-merge > lodash:
+        patched: '2020-12-05T02:12:36.730Z'
+    - '@babel/preset-env > @babel/plugin-transform-block-scoping > lodash':
+        patched: '2020-12-05T02:12:36.730Z'
+    - eslint > inquirer > lodash:
+        patched: '2020-12-05T02:12:36.730Z'
+    - eslint > table > lodash:
+        patched: '2020-12-05T02:12:36.730Z'
+    - stylelint > table > lodash:
+        patched: '2020-12-05T02:12:36.730Z'
+    - '@babel/preset-env > @babel/plugin-transform-modules-umd > @babel/helper-module-transforms > lodash':
+        patched: '2020-12-05T02:12:36.730Z'
+    - stylelint > postcss-jsx > @babel/core > lodash:
+        patched: '2020-12-05T02:12:36.730Z'
+    - '@babel/preset-env > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/traverse > lodash':
+        patched: '2020-12-05T02:12:36.730Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/traverse > lodash:
+        patched: '2020-12-05T02:12:36.730Z'
+    - '@babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > lodash':
+        patched: '2020-12-05T02:12:36.730Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2020-12-05T02:12:36.730Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2020-12-05T02:12:36.730Z'
+    - '@babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/helper-function-name > @babel/types > lodash':
+        patched: '2020-12-05T02:12:36.730Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2020-12-05T02:12:36.730Z'
+    - '@babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/types > lodash':
+        patched: '2020-12-05T02:12:36.730Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-12-05T02:12:36.730Z'
+    - '@babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2020-12-05T02:12:36.730Z'
+    - html-webpack-plugin > lodash:
+        patched: '2020-12-05T02:12:36.730Z'
+    - pug > pug-code-gen > constantinople > babel-types > lodash:
+        patched: '2020-12-05T02:12:36.730Z'
+    - pug > pug-filters > constantinople > babel-types > lodash:
+        patched: '2020-12-05T02:12:36.730Z'
+    - pug > pug-code-gen > pug-attrs > constantinople > babel-types > lodash:
+        patched: '2020-12-05T02:12:36.730Z'
+    - pug-cli > pug > pug-code-gen > constantinople > babel-types > lodash:
+        patched: '2020-12-05T02:12:36.730Z'
+    - pug-cli > pug > pug-filters > constantinople > babel-types > lodash:
+        patched: '2020-12-05T02:12:36.730Z'
+    - pug-cli > pug > pug-code-gen > pug-attrs > constantinople > babel-types > lodash:
+        patched: '2020-12-05T02:12:36.730Z'
+    - stylelint > lodash:
+        patched: '2020-12-05T02:12:36.730Z'
+    - stylelint-order > lodash:
+        patched: '2020-12-05T02:12:36.730Z'
+    - stylelint > postcss-reporter > lodash:
+        patched: '2020-12-05T02:12:36.730Z'
+    - stylelint-order > postcss-sorting > lodash:
+        patched: '2020-12-05T02:12:36.730Z'
+  'npm:semver:20150403':
+    - stylelint > meow > normalize-package-data > semver:
+        patched: '2020-12-05T02:12:36.730Z'
+    - eslint-plugin-import > read-pkg-up > read-pkg > normalize-package-data > semver:
+        patched: '2020-12-05T02:12:36.730Z'
+    - stylelint > meow > read-pkg-up > read-pkg > normalize-package-data > semver:
+        patched: '2020-12-05T02:12:36.730Z'

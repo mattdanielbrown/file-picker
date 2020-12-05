@@ -4,16 +4,21 @@
   "description": "",
   "scripts": {
     "storybook": "start-storybook -p 9001 -s ./static --ci",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "snyk": "^1.434.2"
+  },
   "devDependencies": {
     "@babel/core": "7.9.0",
-    "@storybook/addon-actions": "5.3.18",
+    "@storybook/addon-actions": "6.1.0",
     "@storybook/addons": "5.3.18",
-    "@storybook/react": "5.3.18",
+    "@storybook/react": "6.1.0",
     "babel-loader": "8.1.0"
-  }
+  },
+  "snyk": true
 }

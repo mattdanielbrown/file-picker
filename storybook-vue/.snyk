@@ -1,0 +1,34 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@storybook/vue > @storybook/core > babel-preset-minify > lodash':
+        patched: '2021-10-29T03:30:45.990Z'
+    - '@storybook/vue > vue-docgen-loader > jscodeshift > @babel/core > lodash':
+        patched: '2021-10-29T03:30:45.990Z'
+    - '@storybook/vue > @storybook/core > @storybook/components > react-color > lodash':
+        patched: '2021-10-29T03:30:45.990Z'
+    - '@storybook/vue > @storybook/core > babel-preset-minify > babel-plugin-minify-dead-code-elimination > lodash':
+        patched: '2021-10-29T03:30:45.990Z'
+    - '@storybook/vue > vue-docgen-loader > jscodeshift > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash':
+        patched: '2021-10-29T03:30:45.990Z'
+    - '@storybook/vue > @storybook/core > @storybook/components > react-color > reactcss > lodash':
+        patched: '2021-10-29T03:30:45.990Z'
+    - '@storybook/vue > @storybook/core > @storybook/ui > @storybook/components > react-color > lodash':
+        patched: '2021-10-29T03:30:45.990Z'
+    - '@storybook/vue > vue-docgen-loader > jscodeshift > @babel/preset-env > @babel/plugin-transform-modules-umd > @babel/helper-module-transforms > lodash':
+        patched: '2021-10-29T03:30:45.990Z'
+    - '@storybook/vue > @storybook/core > @storybook/ui > @storybook/components > react-color > reactcss > lodash':
+        patched: '2021-10-29T03:30:45.990Z'
+    - '@storybook/vue > vue-docgen-loader > jscodeshift > @babel/preset-env > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/traverse > lodash':
+        patched: '2021-10-29T03:30:45.990Z'
+    - '@storybook/vue > vue-docgen-loader > jscodeshift > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > lodash':
+        patched: '2021-10-29T03:30:45.990Z'
+    - '@storybook/vue > vue-docgen-loader > jscodeshift > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash':
+        patched: '2021-10-29T03:30:45.990Z'
+    - '@storybook/vue > vue-docgen-loader > jscodeshift > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2021-10-29T03:30:45.990Z'
+    - '@storybook/vue > vue-docgen-loader > jscodeshift > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2021-10-29T03:30:45.990Z'

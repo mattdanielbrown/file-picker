@@ -24,6 +24,12 @@
   },
   "scripts": {
     "storybook": "start-storybook -p 9001",
-    "build": "build-storybook -c .storybook -o ../.demo/vue"
+    "build": "build-storybook -c .storybook -o ../.demo/vue",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true,
+  "dependencies": {
+    "@snyk/protect": "latest"
   }
 }

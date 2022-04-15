@@ -1,0 +1,18 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@storybook/react > @storybook/core > babel-preset-minify > lodash':
+        patched: '2022-04-15T23:12:43.499Z'
+    - '@storybook/react > @storybook/core > @storybook/components > react-color > lodash':
+        patched: '2022-04-15T23:12:43.499Z'
+    - '@storybook/react > @storybook/core > babel-preset-minify > babel-plugin-minify-dead-code-elimination > lodash':
+        patched: '2022-04-15T23:12:43.499Z'
+    - '@storybook/react > @storybook/core > @storybook/components > react-color > reactcss > lodash':
+        patched: '2022-04-15T23:12:43.499Z'
+    - '@storybook/react > @storybook/core > @storybook/ui > @storybook/components > react-color > lodash':
+        patched: '2022-04-15T23:12:43.499Z'
+    - '@storybook/react > @storybook/core > @storybook/ui > @storybook/components > react-color > reactcss > lodash':
+        patched: '2022-04-15T23:12:43.499Z'

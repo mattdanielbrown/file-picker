@@ -55,7 +55,7 @@
     "@babel/preset-react": "7.0.0",
     "@kloudless/file-picker-plupload-module": "git+https://github.com/Kloudless/file-picker-plupload-module.git#ea5957b",
     "@storybook/storybook-deployer": "2.8.1",
-    "@typescript-eslint/eslint-plugin": "2.9.0",
+    "@typescript-eslint/eslint-plugin": "4.7.0",
     "@typescript-eslint/parser": "2.9.0",
     "autoprefixer": "9.6.1",
     "babel-loader": "^8.0.5",

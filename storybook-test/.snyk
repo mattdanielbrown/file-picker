@@ -1,0 +1,148 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@storybook/react > lodash':
+        patched: '2024-07-07T05:03:46.788Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@storybook/react > lodash'
+    - '@storybook/addons > @storybook/api > lodash':
+        patched: '2024-07-07T05:03:46.788Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@storybook/addons > @storybook/api > lodash'
+    - '@storybook/addon-actions > @storybook/api > lodash':
+        patched: '2024-07-07T05:03:46.788Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@storybook/addon-actions > @storybook/api > lodash'
+    - '@storybook/addon-actions > @storybook/client-api > lodash':
+        patched: '2024-07-07T05:03:46.788Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@storybook/addon-actions > @storybook/client-api > lodash'
+    - '@storybook/addon-actions > @storybook/components > lodash':
+        patched: '2024-07-07T05:03:46.788Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@storybook/addon-actions > @storybook/components > lodash'
+    - '@storybook/react > babel-plugin-react-docgen > lodash':
+        patched: '2024-07-07T05:03:46.788Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@storybook/react > babel-plugin-react-docgen > lodash'
+    - '@storybook/addons > @storybook/api > @storybook/csf > lodash':
+        patched: '2024-07-07T05:03:46.788Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@storybook/addons > @storybook/api > @storybook/csf > lodash'
+    - '@storybook/addon-actions > @storybook/api > @storybook/csf > lodash':
+        patched: '2024-07-07T05:03:46.788Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@storybook/addon-actions > @storybook/api > @storybook/csf > lodash'
+    - '@storybook/react > @storybook/core > @storybook/csf > lodash':
+        patched: '2024-07-07T05:03:46.788Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@storybook/react > @storybook/core > @storybook/csf > lodash'
+    - '@storybook/addons > @storybook/api > @storybook/router > lodash':
+        patched: '2024-07-07T05:03:46.788Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@storybook/addons > @storybook/api > @storybook/router > lodash'
+    - '@storybook/addon-actions > @storybook/api > @storybook/router > lodash':
+        patched: '2024-07-07T05:03:46.788Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@storybook/addon-actions > @storybook/api > @storybook/router > lodash'
+    - '@storybook/react > @storybook/core > @storybook/router > lodash':
+        patched: '2024-07-07T05:03:46.788Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@storybook/react > @storybook/core > @storybook/router > lodash'
+    - '@storybook/addons > @storybook/api > telejson > lodash':
+        patched: '2024-07-07T05:03:46.788Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@storybook/addons > @storybook/api > telejson > lodash'
+    - '@storybook/addon-actions > @storybook/api > telejson > lodash':
+        patched: '2024-07-07T05:03:46.788Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@storybook/addon-actions > @storybook/api > telejson > lodash'
+    - '@storybook/react > @storybook/addons > @storybook/api > lodash':
+        patched: '2024-07-07T05:03:46.788Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@storybook/react > @storybook/addons > @storybook/api > lodash'
+    - '@storybook/react > @storybook/core > @storybook/client-api > lodash':
+        patched: '2024-07-07T05:03:46.788Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@storybook/react > @storybook/core > @storybook/client-api > lodash'
+    - '@storybook/react > @storybook/core > @storybook/ui > lodash':
+        patched: '2024-07-07T05:03:46.788Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@storybook/react > @storybook/core > @storybook/ui > lodash'
+    - '@storybook/react > @storybook/core > babel-preset-minify > lodash':
+        patched: '2024-07-07T05:03:46.788Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@storybook/react > @storybook/core > babel-preset-minify > lodash'
+    - '@storybook/react > @storybook/core > html-webpack-plugin > lodash':
+        patched: '2024-07-07T05:03:46.788Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@storybook/react > @storybook/core > html-webpack-plugin > lodash'
+    - '@storybook/react > @storybook/core > inquirer > lodash':
+        patched: '2024-07-07T05:03:46.788Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@storybook/react > @storybook/core > inquirer > lodash'
+    - '@storybook/react > react-dev-utils > inquirer > lodash':
+        patched: '2024-07-07T05:03:46.788Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@storybook/react > react-dev-utils > inquirer > lodash'
+    - '@storybook/react > @svgr/webpack > @babel/core > lodash':
+        patched: '2024-07-07T05:03:46.788Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@storybook/react > @svgr/webpack > @babel/core > lodash'
+    - '@storybook/react > @svgr/webpack > @babel/core > @babel/types > lodash':
+        patched: '2024-07-07T05:03:46.788Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@storybook/react > @svgr/webpack > @babel/core > @babel/types > lodash'
+    - '@storybook/react > @storybook/addons > @storybook/api > telejson > lodash':
+        patched: '2024-07-07T05:03:46.788Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react > @storybook/addons > @storybook/api > telejson >
+          lodash
+    - '@storybook/react > @storybook/core > @storybook/ui > @storybook/components > lodash':
+        patched: '2024-07-07T05:03:46.788Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react > @storybook/core > @storybook/ui >
+          @storybook/components > lodash
+    - '@storybook/react > @svgr/webpack > @babel/core > @babel/generator > lodash':
+        patched: '2024-07-07T05:03:46.788Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react > @svgr/webpack > @babel/core > @babel/generator >
+          lodash
+    - '@storybook/react > @svgr/webpack > @babel/core > @babel/traverse > lodash':
+        patched: '2024-07-07T05:03:46.788Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react > @svgr/webpack > @babel/core > @babel/traverse >
+          lodash
+    - '@storybook/react > @storybook/core > babel-preset-minify > babel-plugin-minify-dead-code-elimination > lodash':
+        patched: '2024-07-07T05:03:46.788Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react > @storybook/core > babel-preset-minify >
+          babel-plugin-minify-dead-code-elimination > lodash
+    - '@storybook/react > @svgr/webpack > @babel/core > @babel/helper-module-transforms > lodash':
+        patched: '2024-07-07T05:03:46.788Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/react > @svgr/webpack > @babel/core >
+          @babel/helper-module-transforms > lodash
+    - '@storybook/addon-actions > @storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2024-07-07T05:03:46.788Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/addon-actions > @storybook/theming > @emotion/styled >
+          babel-plugin-emotion > @babel/helper-module-imports > @babel/types >
+          lodash
+    - '@storybook/addons > @storybook/api > @storybook/theming > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2024-07-07T05:03:46.788Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @storybook/addons > @storybook/api > @storybook/theming >
+          @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports
+          > @babel/types > lodash

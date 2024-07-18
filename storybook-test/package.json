@@ -6,11 +6,15 @@
     "storybook": "start-storybook -p 9001 -s ./static --ci",
     "build-storybook": "build-storybook",
     "test": "jest",
-    "dev-server": "npm run dev:story --prefix=../"
+    "dev-server": "npm run dev:story --prefix=../",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "author": "",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "@snyk/protect": "latest"
+  },
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "7.12.1",
     "@storybook/addon-actions": "5.3.18",
@@ -26,5 +30,6 @@
     "jest-image-snapshot": "4.2.0",
     "jest-puppeteer": "4.4.0",
     "puppeteer": "5.3.1"
-  }
+  },
+  "snyk": true
 }

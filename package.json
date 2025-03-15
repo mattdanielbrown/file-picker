@@ -50,7 +50,7 @@
   },
   "devDependencies": {
     "@babel/cli": "7.2.3",
-    "@babel/core": "7.4.0",
+    "@babel/core": "7.26.10",
     "@babel/preset-env": "7.4.1",
     "@babel/preset-react": "7.0.0",
     "@kloudless/file-picker-plupload-module": "git+https://github.com/Kloudless/file-picker-plupload-module.git#ea5957b",
@@ -101,7 +101,7 @@
     "sammy": "0.7.6",
     "script-ext-html-webpack-plugin": "2.1.3",
     "style-loader": "1.0.0",
-    "stylelint": "^10.1.0",
+    "stylelint": "^13.3.1",
     "stylelint-config-standard": "^18.3.0",
     "stylelint-order": "^3.1.0",
     "typescript": "3.7.2",

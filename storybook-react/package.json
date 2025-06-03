@@ -12,7 +12,7 @@
   "devDependencies": {
     "@babel/core": "7.3.4",
     "@babel/preset-env": "7.4.1",
-    "@storybook/addon-actions": "5.1.9",
+    "@storybook/addon-actions": "9.0.0",
     "@storybook/addon-console": "1.1.0",
     "@storybook/addon-info": "5.1.9",
     "@storybook/addon-knobs": "5.1.9",

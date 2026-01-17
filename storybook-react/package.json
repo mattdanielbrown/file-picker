@@ -5,7 +5,9 @@
   "description": "",
   "scripts": {
     "storybook": "start-storybook -p 9001",
-    "build": "build-storybook -c .storybook -o ../.demo/react"
+    "build": "build-storybook -c .storybook -o ../.demo/react",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "author": "Kloudless <hello@kloudless.com> (https://kloudless.com)",
   "license": "MIT",
@@ -24,5 +26,9 @@
     "react": "16.8.4",
     "react-dom": "16.8.4",
     "storybook-readme": "5.0.2"
+  },
+  "snyk": true,
+  "dependencies": {
+    "@snyk/protect": "latest"
   }
 }
